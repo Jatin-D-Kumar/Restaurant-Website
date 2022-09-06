@@ -1,0 +1,180 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: grey;
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.479) 0px 0px 7px 0px;
+    position: sticky;
+    top:0;
+    background: white;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5vw;
+}
+header ul{
+    display: flex;
+}
+header li{
+    list-style: none;
+    padding: 0 12px;
+    font-size: 17px;
+    cursor: pointer;
+}
+header a{
+    text-decoration: none;
+    color: grey;
+}
+.section1 div{
+    position: relative;
+    height: 100vh;
+    opacity: 0.7;
+    background-image: url("image5L.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section1 div span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5em;
+    color: rgb(3, 7, 17);
+    font-weight: bolder;
+}
+.section2{
+    text-align: center;
+    margin: 20px;
+    border: 0.5px solid grey;
+    padding-top: 30px;
+}
+.section2 h2{
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+}
+.menudiv{
+    display: flex;
+    padding: 20px;
+}
+.menuleft{
+    width: 50%;
+    text-align: left;
+}
+.menuleft b{
+    font-size: 1.5em;
+}
+.menuright{
+    width: 50%;
+    overflow: hidden;
+}
+.menuright img{
+    border: 10px solid grey;
+    border-radius: 50%;
+}
+.parallax{
+    margin: 10px;
+    background-image: url("image4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    opacity: 0.8;
+}
+.section3{
+    position: relative;
+}
+.contractdetails{
+    display: flex;
+    margin: 20px;
+    border: 2px solid grey;
+}
+.contractleft{
+    margin: 10px;
+    padding: 15px;
+    width: 50%;
+    font-size: 1.1em;
+}
+input{
+    border:none;
+    font-size: 1em;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+textarea{
+    font-size: 1em;
+    border: none;
+    border: 1px solid grey;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+input[type="submit"]{
+    cursor: pointer;
+}
+.contractleft h3{
+    text-align: center;
+    font-size: 3em;
+}
+.contractright{
+    width: 50%;
+    display: flex;
+}
+.contractright img{
+    width: 100%;
+}
+.parallax2{
+    margin: 10px;
+    background-image: url("image2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.7;
+    height: 50vh;
+}
+.section4{
+    margin: 20px;
+    padding-top: 30px;
+}
+.section4 h3{
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+}
+.aboutdiv{
+    display: flex;
+    padding: 20px;
+}
+.aboutleft{
+    width: 50%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.aboutright{
+    width: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+.aboutright img{
+    border: 10px solid grey;
+    border-radius: 50%;
+    height: 100vh;
+}
+footer{
+    position: relative;
+    text-align: center;
+    height: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.479) 0px 0px 7px 0px;
+}
+footer div{
+    position: absolute;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
