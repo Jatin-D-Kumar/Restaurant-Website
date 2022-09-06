@@ -163,7 +163,7 @@ input[type="submit"]{
 .aboutright img{
     border: 10px solid grey;
     border-radius: 50%;
-    height: 100vh;
+    height: 600px;
 }
 footer{
     position: relative;
